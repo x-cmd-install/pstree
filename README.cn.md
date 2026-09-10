@@ -4,13 +4,23 @@
 
 pstree shows the process listing as a tree
 
-![pstree](https://repo.x-cmd.io/pstree.svg)
+![pstree](https://repo.x-cmd.io/pstree.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install pstree
 ```
+
+## 代码规模
+
+合计: **811** 行代码（覆盖前 5 种语言、共 **3** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| C | 807 | 269 | 109 | 1 |
+| Makefile | 4 | 1 | 3 | 1 |
+| Markdown | 0 | 38 | 19 | 1 |
 
 ## 源代码
 
@@ -21,7 +31,6 @@ x install pstree
 
 - **最新版本**: `v2.40` (2022-07-15)
 - **最近提交**: 2022-08-18
-- **发布时间**: 2022-07-15T09:05:22Z
 
 ## 流行度
 
@@ -36,18 +45,21 @@ x install pstree
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-20 | 0 | 0 | 0 | 0 | 2 | 0 |
 
-## 代码规模
+## 发行版状态
 
-合计: **811** 行代码（覆盖前 5 种语言、共 **3** 个文件）。
+在 [repology.org](https://repology.org/project/pstree) 上共有 **44** 个发行版报告此项目。**28** 个 ✅ 已是最新上游版本，**10** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| C | 807 | 269 | 109 | 1 |
-| Makefile | 4 | 1 | 3 | 1 |
-| Markdown | 0 | 38 | 19 | 1 |
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Homebrew | `2.40` | ✅ latest |
+| Nix unstable | `2.39` | ⚠️ outdated |
+| Alpine edge | `2.40` | ✅ latest |
 
 ## 改进这些数据
 
@@ -58,4 +70,4 @@ pstree 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:46:58Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:29:46Z._
