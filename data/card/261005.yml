@@ -110,4 +110,3 @@ total:
 ---
 
 ---
-{"id":72070479,"author":{"login":"FredHucht","id":109087221,"node_id":"U_kgDOBoCJ9Q","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOHpEM0c4ES7VP","tag_name":"v2.40","target_commitish":"main","name":"pstree v2.40","draft":false,"immutable":false,"prerelease":false,"created_at":"2022-07-15T09:02:23Z","updated_at":"2022-07-15T09:05:22Z","published_at":"2022-07-15T09:05:22Z","assets":[],"body":"Initial GitHub release of pstree, for changes history up to v2.40 see end of `pstree.c`.\r\n\r\n[pstree-v2.40.zip](https://github.com/FredHucht/pstree/files/9119465/pstree-v2.40.zip)\r\n"}
