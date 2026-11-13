@@ -1,14 +1,27 @@
-- repo: nix_stable_24_05
+- repo: hpux_11_31
+  subrepo: hppa_32
   srcname: pstree
+  binname: pstree
   visiblename: pstree
   version: "2.39"
   origversion: null
   status: outdated
-  summary: Show the set of running processes as a tree
-  maintainers:
-    - c0bw3b@gmail.com
-  licenses:
-    - GPL-2.0
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: pstree
+  binname: pstree
+  visiblename: pstree
+  version: "2.39"
+  origversion: null
+  status: outdated
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: pstree
+  binname: pstree
+  visiblename: pstree
+  version: "2.39"
+  origversion: null
+  status: outdated
 - repo: aix_osp
   srcname: pstree
   visiblename: pstree
@@ -253,18 +266,6 @@
     - soeren+alpine@soeren-tempel.net
   licenses:
     - GPL-3.0-or-later
-- repo: pkgsrc_2026_2
-  srcname: sysutils/pstree
-  binname: pstree
-  visiblename: sysutils/pstree
-  version: "2.40"
-  origversion: null
-  status: newest
-  summary: Display processes in a tree
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
 - repo: alpine_edge
   subrepo: main
   srcname: pstree
@@ -318,30 +319,6 @@
   version: "2.35"
   origversion: null
   status: legacy
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: pstree
-  binname: pstree
-  visiblename: pstree
-  version: "2.39"
-  origversion: null
-  status: outdated
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: pstree
-  binname: pstree
-  visiblename: pstree
-  version: "2.39"
-  origversion: null
-  status: outdated
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: pstree
-  binname: pstree
-  visiblename: pstree
-  version: "2.39"
-  origversion: null
-  status: outdated
 - repo: macports
   srcname: sysutils/pstree
   binname: pstree
@@ -356,6 +333,17 @@
     - GPL-2
   categories:
     - sysutils
+- repo: nix_stable_24_05
+  srcname: pstree
+  visiblename: pstree
+  version: "2.39"
+  origversion: null
+  status: outdated
+  summary: Show the set of running processes as a tree
+  maintainers:
+    - c0bw3b@gmail.com
+  licenses:
+    - GPL-2.0
 - repo: nix_stable_24_11
   srcname: pstree
   visiblename: pstree
@@ -408,7 +396,7 @@
   status: outdated
   summary: Show the set of running processes as a tree
   maintainers:
-    - fallback-mnt-nix@repology
+    - ihar.hrachyshka@gmail.com
   licenses:
     - GPL-2.0
 - repo: openbsd
@@ -434,6 +422,18 @@
   summary: pstree shows the process listing as a tree
   categories:
     - Applications/System Utilities
+- repo: pkgsrc_2026_2
+  srcname: sysutils/pstree
+  binname: pstree
+  visiblename: sysutils/pstree
+  version: "2.40"
+  origversion: null
+  status: newest
+  summary: Display processes in a tree
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
 - repo: pkgsrc_2026_3
   srcname: sysutils/pstree
   binname: pstree
